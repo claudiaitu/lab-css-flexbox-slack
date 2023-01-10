@@ -14,37 +14,155 @@ footer links grey: #454245
     margin: 0;
     padding: 0;
 }
+body { 
+    background-color: #540B51;
+    width: 98vw;
+    margin-left: 5%;
+    margin-right: 5%;
 
+    
+}
+
+html {
+    font-size: 14px;
+}
 nav {
     background-color: #540B51;
     display: flex;
-    width: 98vw;
+    justify-content: space-between;
+    width: 100vw;
+    margin-top: 20px;
 }
 
 .left-div {
+    background-color: #540B51;
     display: flex;
     align-items: center;
 }
 
 .slackLogo {
-    width: 150px;
+    width: 100px;
 }
 
 .left-div ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: none;
+    
 }
 
 .left-div a {
     color: white;
     text-decoration: none;
+    
+}
+
+
+header {
+    background-color: #540B51; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+button {
+    background-color:#540B51; 
+    border: none;
+
 }
 
 .right-div {
     display: flex;
-    align-items: center;
+    width: 20vw;
+    justify-content: space-around;
 }
 
+#yellowWord {
+    color: #ecb12f; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
 
+.header > p {
+    font-size: medium;
+    margin-top: 20px;
+}
+
+header > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#google {
+    height: 40px;
+    background-color: white;
+
+}
+
+.signUpEmail {
+    background-color: white;
+    color: #540B51;
+    /* padding: 20px 20px 12px 10px; */
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+}
+
+.signUpGoogle {
+    background-color: #4285F4;
+    /* padding: 20px 20px 12px 10px; */
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    
+}
+
+.signUpGoogle span {
+    flex-grow: 2;
+}
+
+.twoButtons {
+    height: 120px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+#slackApp {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    right: 20;
+}
+
+.Fluff {
+    background-color: #F3EAE2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > section > div {
+    /* width: 75px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+main > section > div > img {
+    height: 30px;
+}
+
+#uber {
+    height: 20px;
+}
+
+.main {
+    margin-left: 0;
+}
