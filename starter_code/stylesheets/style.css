@@ -13,14 +13,13 @@ footer links grey: #454245
 * {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 body { 
     background-color: #540B51;
     width: 98vw;
     margin-left: 5%;
-    margin-right: 5%;
-
-    
+    margin-right: 5%; 
 }
 
 html {
@@ -29,9 +28,11 @@ html {
 nav {
     background-color: #540B51;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100vw;
     margin-top: 20px;
+    
 }
 
 .left-div {
@@ -96,7 +97,10 @@ header > div > div {
 }
 
 #google {
-    height: 40px;
+    width: 30px;
+    border-radius: 2px;
+    margin: 6px;
+    padding: 7px;
     background-color: white;
 
 }
@@ -107,28 +111,39 @@ header > div > div {
     /* padding: 20px 20px 12px 10px; */
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    height: 50px;
+    font-weight: 600;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 360px;
+    border-radius: 5px;
 }
 
 .signUpGoogle {
     background-color: #4285F4;
     /* padding: 20px 20px 12px 10px; */
     font-size: 1rem;
+    font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    height: 60px;
+    width: 360px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 50px;
+    justify-content: center;
+    gap: 55px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
     
 }
 
 .signUpGoogle span {
     flex-grow: 2;
+    text-align: center;
 }
 
 .twoButtons {
-    height: 120px;
+    height: 160px;
     justify-content: space-between;
     display: flex;
     margin-top: 20px;
@@ -147,14 +162,15 @@ header > div > div {
 
 .Fluff {
     background-color: #F3EAE2;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-main > section > div {
+#add-pics {
     /* width: 75px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 
     
 }
@@ -172,8 +188,234 @@ main > section > div > img {
     margin-left: 0;
 }
 
-.middleStuffOne {
+/* .middleStuffOne {
     font-size: 1.3rem;
     text-align: center;
     margin-top: 20px;
+} */
+
+.middleStuffOne p {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.middleStuffTwo-text {
+    padding: 15px 40px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+    font-weight: 600;
+
+}
+
+.middleStuffTwo-text h2 {
+    font-size: 1.8rem;
+}
+
+.middleStuffTwo-text a {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.middleStuffTwo-text p {
+    line-height: 18px;
+    font-size: 1.1rem;
+}
+
+#connectedness-image {
+   width: 90%;
+   height: auto;
+   padding-top: 20px;
+
+}
+
+#flex-mobile-image {
+    width: 90%;
+   height: auto;
+   padding-top: 20px;
+}
+
+#speed-mobile-image {
+    width: 90%;
+   height: auto;
+   padding-top: 20px;
+}
+
+#section-Five {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sectionFive-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sectionFive-buttons button {
+    width: 400px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 600;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 360px;
+    border-radius: 5px;
+}
+
+.meet-slack-enterprise-btn {
+    background-color: #540B51;
+    color: white;
+    border: none;
+    /* font-weight: 600;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 360px;
+    border-radius: 5px; */
+}
+
+.talk-to-sales-btn {
+    background-color: white;
+    color: #540B51;
+    border: 1px solid #540B51
+}
+
+.sectionFive-list {
+    list-style: none;
+    padding: 20px 70px;
+}
+
+#section-Five .section-Five-text {
+    font-size: 15px;
+    padding: 0 50px;
+    font-weight: 900;
+}
+
+#section-Five span {
+    color: #540B51;
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+#section-Five h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+}
+
+#section-Five p {
+    line-height: 25px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#sectionSix {
+    background-color: #540B51;
+    height: 40vh;
+    border-radius: 2000px 2000px / 0px 0px 300px 300px;
+    font-size: 2rem;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.sectionSix-btn {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 40px 20px 20px 30px;
+}
+
+.sectionSix-btn button {
+    height: 60px;
+    width: 300px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.talk-to-sales {
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+
+.try-for-free {
+    border: none;
+    background-color: white;
+    color: #540B51;
+    border-radius: 4px;
+}
+
+#sectionSix h3 {
+    color: white
+}
+
+footer {
+    background-color: white;
+    padding: 60px;
+}
+
+#last-logo {
+    width: 60px;
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-ul ul {
+    list-style: none;
+}
+
+.li-title {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.footer-ul li {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+hr {
+    border: 0.4px solid grey;
+}
+
+.footer-end {
+    list-style: none;
+    font-weight: 700;
+    padding-top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    
+}
+
+.small {
+    font-size: 0.7rem;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
